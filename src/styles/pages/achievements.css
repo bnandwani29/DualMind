@@ -1,0 +1,62 @@
+.s-achievements a {
+  color: #4338ca;
+}
+.s-achievements a:hover {
+  color: #3730a3;
+}
+.s-achievements h1,
+.s-achievements h2,
+.s-achievements h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.s-achievements .nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #344054;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.s-achievements .nav a:hover {
+  background: #eef0f4;
+  color: #101828;
+}
+.s-achievements .nav a.on {
+  background: #eef2ff;
+  color: #3730a3;
+  font-weight: 600;
+}
+.s-achievements .card {
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.s-achievements .d {
+  aspect-ratio: 1;
+  border-radius: 6px;
+}
+.s-achievements .bdg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+  padding: 20px 12px;
+  border: 1px solid #e4e7ec;
+  border-radius: 14px;
+  background: #fff;
+}
+.s-achievements .ic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

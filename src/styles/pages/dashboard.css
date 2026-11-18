@@ -1,0 +1,88 @@
+.s-dashboard a {
+  color: #4338ca;
+}
+.s-dashboard a:hover {
+  color: #3730a3;
+}
+.s-dashboard h1,
+.s-dashboard h2,
+.s-dashboard h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.s-dashboard .nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #344054;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.s-dashboard .nav a:hover {
+  background: #eef0f4;
+  color: #101828;
+}
+.s-dashboard .nav a.on {
+  background: #eef2ff;
+  color: #3730a3;
+  font-weight: 600;
+}
+.s-dashboard .card {
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.s-dashboard .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 10px;
+  font:
+    600 14px Inter,
+    sans-serif;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  color: #101828;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.s-dashboard .btn:hover {
+  background: #f2f4f7;
+  color: #101828;
+}
+.s-dashboard .btn.pri {
+  background: #4338ca;
+  border-color: #4338ca;
+  color: #fff;
+}
+.s-dashboard .btn.pri:hover {
+  background: #3730a3;
+  color: #fff;
+}
+.s-dashboard .lbl {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #475467;
+}
+.s-dashboard .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #f2f4f7;
+  color: #344054;
+}

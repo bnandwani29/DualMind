@@ -1,0 +1,51 @@
+.s-breather a {
+  color: #3730a3;
+}
+.s-breather a:hover {
+  color: #312e81;
+}
+.s-breather h1,
+.s-breather h2,
+.s-breather h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.s-breather .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 999px;
+  font:
+    600 15px Inter,
+    sans-serif;
+  border: 1px solid #cbd5e1;
+  background: #fff;
+  color: #101828;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.s-breather .btn:hover {
+  background: #f8fafc;
+  color: #101828;
+}
+.s-breather .act {
+  min-height: 48px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid #cbd5e1;
+  background: transparent;
+  font:
+    600 14px Inter,
+    sans-serif;
+  color: #334155;
+  cursor: pointer;
+}
+.s-breather .act.on {
+  background: #1e1b4b;
+  border-color: #1e1b4b;
+  color: #fff;
+}

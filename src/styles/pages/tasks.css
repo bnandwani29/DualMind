@@ -1,0 +1,152 @@
+.s-tasks a {
+  color: #4338ca;
+}
+.s-tasks a:hover {
+  color: #3730a3;
+}
+.s-tasks h1,
+.s-tasks h2,
+.s-tasks h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.s-tasks .nav a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  color: #344054;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+.s-tasks .nav a:hover {
+  background: #eef0f4;
+  color: #101828;
+}
+.s-tasks .nav a.on {
+  background: #eef2ff;
+  color: #3730a3;
+  font-weight: 600;
+}
+.s-tasks .card {
+  background: #fff;
+  border: 1px solid #e4e7ec;
+  border-radius: 16px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.s-tasks .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 10px;
+  font:
+    600 14px Inter,
+    sans-serif;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  color: #101828;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.s-tasks .btn:hover {
+  background: #f2f4f7;
+  color: #101828;
+}
+.s-tasks .btn.pri {
+  background: #4338ca;
+  border-color: #4338ca;
+  color: #fff;
+}
+.s-tasks .btn.pri:hover {
+  background: #3730a3;
+  color: #fff;
+}
+.s-tasks .chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  background: #f2f4f7;
+  color: #344054;
+  white-space: nowrap;
+}
+.s-tasks .tab {
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 8px;
+  border: 0;
+  background: transparent;
+  font:
+    600 14px Inter,
+    sans-serif;
+  color: #475467;
+  cursor: pointer;
+}
+.s-tasks .tab.on {
+  background: #fff;
+  color: #101828;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.08);
+}
+.s-tasks table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+.s-tasks th {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+  color: #475467;
+  padding: 12px 16px;
+  border-bottom: 1px solid #e4e7ec;
+  background: #f9fafb;
+  white-space: nowrap;
+}
+.s-tasks td {
+  padding: 14px 16px;
+  border-bottom: 1px solid #eef0f4;
+  vertical-align: middle;
+}
+.s-tasks .f {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #344054;
+}
+.s-tasks .f input,
+.s-tasks .f select,
+.s-tasks .f textarea {
+  font:
+    400 14px Inter,
+    sans-serif;
+  color: #101828;
+  border: 1px solid #d0d5dd;
+  border-radius: 10px;
+  padding: 10px 12px;
+  min-height: 44px;
+  box-sizing: border-box;
+  background: #fff;
+}
+.s-tasks .seg {
+  flex: 1;
+  min-height: 40px;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  font:
+    600 13px Inter,
+    sans-serif;
+  color: #344054;
+  cursor: pointer;
+}

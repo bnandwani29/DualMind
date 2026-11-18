@@ -1,0 +1,95 @@
+.s-calibration a {
+  color: #4338ca;
+}
+.s-calibration a:hover {
+  color: #3730a3;
+}
+.s-calibration h1,
+.s-calibration h2,
+.s-calibration h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.s-calibration .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 10px;
+  font:
+    600 15px Inter,
+    sans-serif;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  color: #101828;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.s-calibration .btn:hover {
+  background: #f2f4f7;
+  color: #101828;
+}
+.s-calibration .btn.pri {
+  background: #4338ca;
+  border-color: #4338ca;
+  color: #fff;
+}
+.s-calibration .btn.pri:hover {
+  background: #3730a3;
+  color: #fff;
+}
+
+.s-calibration { min-height: 100vh; background: #f5f6f8; color: #101828; }
+.s-calibration .cal-shell { max-width: 1240px; margin: 0 auto; padding: 32px 28px 48px; }
+.s-calibration .cal-top { display:flex; justify-content:space-between; align-items:center; gap:16px; margin-bottom:34px; }
+.s-calibration .cal-brand { display:flex; align-items:center; gap:10px; color:#101828; text-decoration:none; font:700 19px 'Space Grotesk',Inter,sans-serif; }
+.s-calibration .cal-brand-icon { display:grid; place-items:center; width:32px; height:32px; border-radius:9px; background:#4338ca; color:white; }
+.s-calibration .cal-step-label { color:#475467; font-size:13px; font-weight:600; }
+.s-calibration .cal-heading { margin-bottom:26px; }
+.s-calibration .cal-heading > div { color:#475467; font-size:13px; font-weight:600; }
+.s-calibration .cal-heading h1 { margin:8px 0; font:600 34px 'Space Grotesk',Inter,sans-serif; }
+.s-calibration .cal-heading p { max-width:740px; margin:0; color:#475467; line-height:1.6; }
+.s-calibration .cal-layout { display:grid; grid-template-columns:minmax(0,1.3fr) minmax(320px,.9fr); gap:22px; align-items:start; }
+.s-calibration .cal-camera-card { position:relative; min-height:500px; aspect-ratio:4/3; overflow:hidden; border-radius:20px; background:#0f172a; }
+.s-calibration .cal-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+.s-calibration .cal-landmarks { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; }
+.s-calibration .cal-face-guide { position:absolute; left:50%; top:44%; width:31%; height:54%; transform:translate(-50%,-50%); border:2px dashed #6366f1; border-radius:48%; display:grid; place-items:center; }
+.s-calibration .cal-face-guide span { width:5px; height:5px; border-radius:50%; background:#a5b4fc; box-shadow:-27px -22px #a5b4fc,27px -22px #a5b4fc,0 20px #a5b4fc; }
+.s-calibration .cal-badges { position:absolute; left:16px; top:16px; display:flex; flex-wrap:wrap; gap:8px; }
+.s-calibration .cal-badge { display:inline-flex; align-items:center; gap:7px; padding:7px 11px; border-radius:999px; color:#e2e8f0; background:#263247e8; font-size:12px; font-weight:600; }
+.s-calibration .cal-badge i { width:7px; height:7px; border-radius:50%; background:#94a3b8; }
+.s-calibration .cal-badge.good { color:#6ee7b7; background:#064e3be8; }
+.s-calibration .cal-badge.good i { background:#34d399; }
+.s-calibration .cal-badge.bad { color:#fecaca; background:#7f1d1de8; }
+.s-calibration .cal-badge.bad i { background:#f87171; }
+.s-calibration .cal-start { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); border:0; border-radius:10px; padding:13px 20px; color:white; background:#4338ca; font-weight:700; cursor:pointer; }
+.s-calibration .cal-caption { position:absolute; left:16px; right:16px; bottom:16px; display:flex; flex-direction:column; gap:12px; padding:16px; border-radius:12px; background:#0f172ae8; color:#e2e8f0; }
+.s-calibration .cal-caption > div:first-child { display:flex; justify-content:space-between; gap:12px; font-size:14px; }
+.s-calibration .cal-caption span { white-space:nowrap; }
+.s-calibration .cal-progress { height:6px; border-radius:4px; background:#334155; overflow:hidden; }
+.s-calibration .cal-progress span { display:block; height:100%; background:#818cf8; transition:width .3s linear; }
+.s-calibration .cal-error { margin:0; color:#fecaca; font-size:13px; line-height:1.5; }
+.s-calibration .cal-aside { display:flex; flex-direction:column; gap:14px; }
+.s-calibration .cal-card { padding:19px 20px; border:1px solid #e4e7ec; border-radius:16px; background:white; }
+.s-calibration .cal-card h2 { margin:0 0 14px; font:600 18px 'Space Grotesk',Inter,sans-serif; }
+.s-calibration .cal-feature { display:flex; align-items:center; gap:12px; margin:12px 0; }
+.s-calibration .cal-feature > span { display:grid; flex:0 0 28px; height:28px; place-items:center; border-radius:50%; background:#f2f4f7; color:#475467; font-size:13px; font-weight:700; }
+.s-calibration .cal-feature > span.done { background:#ecfdf3; color:#027a48; }
+.s-calibration .cal-feature p { margin:0; font-size:14px; line-height:1.45; }
+.s-calibration .cal-step-state { display:flex; flex-direction:column; gap:4px; margin-top:14px; padding-top:12px; border-top:1px solid #eaecf0; font-size:13px; }
+.s-calibration .cal-step-state span,.s-calibration .cal-privacy,.s-calibration .cal-typing p { color:#667085; line-height:1.5; }
+.s-calibration .cal-metric { display:flex; justify-content:space-between; gap:12px; margin:12px 0; font-size:14px; }
+.s-calibration .cal-metric b { text-align:right; }
+.s-calibration .cal-metric b.ok { color:#027a48; }
+.s-calibration .cal-metric b.muted { color:#667085; }
+.s-calibration .cal-privacy { margin:14px 0 0; padding-top:12px; border-top:1px solid #eaecf0; font-size:12px; }
+.s-calibration .cal-typing p { margin:0 0 12px; font-size:13px; }
+.s-calibration .cal-typing textarea { box-sizing:border-box; width:100%; min-height:115px; padding:11px; resize:vertical; border:1px solid #d0d5dd; border-radius:9px; font:14px/1.5 Inter,sans-serif; }
+.s-calibration .cal-action { width:100%; min-height:48px; }
+.s-calibration .cal-action:disabled { opacity:.5; cursor:not-allowed; }
+.s-calibration .cal-note { color:#667085; font-size:12px; text-align:center; }
+@media(max-width:850px) { .s-calibration .cal-layout { grid-template-columns:1fr; } .s-calibration .cal-camera-card { min-height:340px; } }
+@media(max-width:560px) { .s-calibration .cal-shell { padding:20px 14px 32px; } .s-calibration .cal-heading h1 { font-size:29px; } .s-calibration .cal-camera-card { min-height:300px; } .s-calibration .cal-caption > div:first-child { flex-direction:column; gap:5px; } }

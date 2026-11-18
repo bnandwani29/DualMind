@@ -1,0 +1,55 @@
+.s-break-suggestion a {
+  color: #4338ca;
+}
+.s-break-suggestion a:hover {
+  color: #3730a3;
+}
+.s-break-suggestion h1,
+.s-break-suggestion h2,
+.s-break-suggestion h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.s-break-suggestion .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 20px;
+  border-radius: 10px;
+  font:
+    600 15px Inter,
+    sans-serif;
+  border: 1px solid #d0d5dd;
+  background: #fff;
+  color: #101828;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+.s-break-suggestion .btn:hover {
+  background: #f2f4f7;
+  color: #101828;
+}
+.s-break-suggestion .btn.pri {
+  background: #4338ca;
+  border-color: #4338ca;
+  color: #fff;
+}
+.s-break-suggestion .btn.pri:hover {
+  background: #3730a3;
+  color: #fff;
+}
+.s-break-suggestion .sk {
+  background: #e4e7ec;
+  border-radius: 10px;
+}
+.s-break-suggestion .sig {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 14px;
+  padding: 8px 0;
+  border-bottom: 1px solid #f2f4f7;
+}

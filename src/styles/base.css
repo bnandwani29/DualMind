@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  color: #101828;
+  background: #f5f6f8;
+}
+a {
+  color: #4338ca;
+}
+a:hover {
+  color: #3730a3;
+}
+h1,
+h2,
+h3 {
+  font-family: "Space Grotesk", Inter, sans-serif;
+  margin: 0;
+}
+.dm-policy-notice { position:fixed; z-index:1000; left:50%; bottom:22px; transform:translateX(-50%); width:min(760px,calc(100vw - 32px)); display:flex; justify-content:space-between; align-items:center; gap:18px; padding:16px 18px; border:1px solid #c7d2fe; border-radius:14px; background:#fff; box-shadow:0 10px 35px #10182826; color:#101828; }
+.dm-policy-notice strong { font-size:14px; }
+.dm-policy-notice p { margin:5px 0 0; color:#475467; font-size:13px; line-height:1.45; }
+.dm-policy-notice small { color:#667085; }
+.dm-policy-actions { display:flex; align-items:center; gap:7px; flex:none; }
+.dm-policy-actions button { min-height:38px; padding:0 11px; border:1px solid #d0d5dd; border-radius:8px; background:#fff; color:#344054; font:600 12px Inter,sans-serif; cursor:pointer; }
+.dm-policy-actions button:first-child { background:#4338ca; border-color:#4338ca; color:#fff; }
+.dm-policy-actions button:last-child { padding:0 10px; font-size:17px; }
+@media(max-width:650px) { .dm-policy-notice { align-items:flex-start; flex-direction:column; } .dm-policy-actions { width:100%; } }
